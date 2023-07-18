@@ -1,1 +1,40 @@
-/*# sourceMappingURL=app.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Gotham+Rounded:wght@400;500;600&family=Rubik:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gotham Rounded", "sans-serif";
+  font-size: 16px;
+  font-weight: 400;
+  background-color: #7785fe;
+  color: #616b74;
+  padding: 3rem 0.5rem 0.5rem;
+}
+
+.container {
+  width: 400px;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem 1rem 1rem 1.5rem;
+  position: relative;
+}
+
+.lock-logo-div {
+  position: absolute;
+  top: -25px;
+  left: 1rem;
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border: 6px solid #7785fe;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.lock-logo-div img {
+  width: 0.9rem;
+}/*# sourceMappingURL=app.css.map */

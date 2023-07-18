@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Gotham+Rounded:wght@400;500;600&family=Rubik:wght@300&display=swap');
+
+$primary: #7785fe;
+$white:#fff;
+$text-dark:#616b74;
+$text-darker:#465059;
+$text-light:#8E9BA7;
+
+$light-gray:#CCCFD3;
+$lighter-gray:#F5F5F5;
+
+$logo-size:50px;
+
+
+// resetting browser's default styles
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Gotham Rounded', 'sans-serif';
+    font-size: 16px;
+    font-weight: 400;
+    background-color: $primary;
+    color: $text-dark;
+    padding: 3rem .5rem .5rem;
+}
+
+.container {
+    width: 400px;
+    background-color: $white;
+    border-radius: 1rem;
+    padding: 1.5rem 1rem 1rem 1.5rem;
+    position: relative;
+}
+
+.lock-logo-div{
+    position: absolute;
+    top: calc($logo-size / -2);
+    left: 1rem;
+    height: $logo-size;
+    width: $logo-size;
+    background-color: white;
+    border: 6px solid $primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    img{
+        width: .9rem;
+    }
+}
+
