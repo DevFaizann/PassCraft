@@ -1,0 +1,15 @@
+{
+    "name": "PassCraft: Generate Secure Passwords",
+    "version": "1.0",
+    "manifest_version": 3,
+    "description": "Effortlessly generate strong, unique passwords for your online accounts, ensuring maximum protection against unauthorized access.",
+    "icons": {
+        "16": "./assets/icon16.png",
+        "48": "./assets/icon48.png",
+        "128": "./assets/icon128.png"
+    },
+    "action":{
+        "default_icon": "./assets/icon16.png",
+        "default_popup": "./popup.html"
+    }
+}
