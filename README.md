@@ -1,5 +1,7 @@
  <h1 align="center">Welcome to PassCraft🔑</h1>
 
+ ![Web1](images/Web1.png)
+
 PassCraft is a powerful and intuitive password generator Chrome extension designed to enhance your online security. With PassCraft, you can effortlessly generate strong, unique passwords for your online accounts, ensuring maximum protection against unauthorized access.
 
 Experience the convenience and peace of mind that PassCraft brings to your online security. Safeguard your digital life with passwords that are truly crafted for protection.
